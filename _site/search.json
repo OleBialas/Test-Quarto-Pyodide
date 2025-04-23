@@ -1,86 +1,31 @@
 [
   {
-    "objectID": "slide_embedded.html",
-    "href": "slide_embedded.html",
-    "title": "Embed Slides",
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
     "section": "",
-    "text": "On this page, we show how we can embed a RevealJS Presentation inside of a Quarto Website."
-  },
-  {
-    "objectID": "slide_embedded.html#presentation",
-    "href": "slide_embedded.html#presentation",
-    "title": "Embed Slides",
-    "section": "Presentation",
-    "text": "Presentation"
-  },
-  {
-    "objectID": "slide_embedded.html#embed-code",
-    "href": "slide_embedded.html#embed-code",
-    "title": "Embed Slides",
-    "section": "Embed Code",
-    "text": "Embed Code\nPlace the following code inside of the Quarto Document:\n&lt;style&gt;\n.slide-deck {\n    border: 3px solid #dee2e6;\n    width: 100%;\n    height: 475px;\n}\n&lt;/style&gt;\n\n&lt;div&gt;\n```{=html}\n&lt;iframe class=\"slide-deck\" src=\"path/to/presentation/\"&gt;&lt;/iframe&gt;\n```\n&lt;/div&gt;"
-  },
-  {
-    "objectID": "example_page.html",
-    "href": "example_page.html",
-    "title": "Example page",
-    "section": "",
-    "text": "On this page, we set two options directly in the Quarto document. The rest of the options are coming from the _quarto.yml project file. These options are considered “global”.\n\nPlease enable JavaScript to experience the dynamic code cell content on this page."
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Quarto pyodide Demo Website",
-    "section": "",
-    "text": "Welcome to the learning platform of the iBehave Open Technology Support (iBOTS). We are a group of research software consultants that supports neuroscientists."
-  },
-  {
-    "objectID": "slide-embed.html",
-    "href": "slide-embed.html",
-    "title": "Embed Slides",
-    "section": "",
-    "text": "On this page, we show how we can embed a RevealJS Presentation inside of a Quarto Website.",
-    "crumbs": [
-      "Home",
-      "Content",
-      "Embed Slides"
-    ]
-  },
-  {
-    "objectID": "slide-embed.html#presentation",
-    "href": "slide-embed.html#presentation",
-    "title": "Embed Slides",
-    "section": "Presentation",
-    "text": "Presentation",
-    "crumbs": [
-      "Home",
-      "Content",
-      "Embed Slides"
-    ]
-  },
-  {
-    "objectID": "slide-embed.html#embed-code",
-    "href": "slide-embed.html#embed-code",
-    "title": "Embed Slides",
-    "section": "Embed Code",
-    "text": "Embed Code\nPlace the following code inside of the Quarto Document:\n&lt;style&gt;\n.slide-deck {\n    border: 3px solid #dee2e6;\n    width: 100%;\n    height: 475px;\n}\n&lt;/style&gt;\n\n&lt;div&gt;\n```{=html}\n&lt;iframe class=\"slide-deck\" src=\"path/to/presentation/\"&gt;&lt;/iframe&gt;\n```\n&lt;/div&gt;",
-    "crumbs": [
-      "Home",
-      "Content",
-      "Embed Slides"
-    ]
+    "text": "This is a page about the iBots team."
   },
   {
     "objectID": "example-page.html",
     "href": "example-page.html",
     "title": "Example page",
     "section": "",
-    "text": "On this page, we set two options directly in the Quarto document. The rest of the options are coming from the _quarto.yml project file. These options are considered “global”.\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.",
-    "crumbs": [
-      "Home",
-      "Content",
-      "Example page"
-    ]
+    "text": "On this page, we set two options directly in the Quarto document. The rest of the options are coming from the _quarto.yml project file. These options are considered “global”.\n\nPlease enable JavaScript to experience the dynamic code cell content on this page."
+  },
+  {
+    "objectID": "courses/intro-to-python/index.html",
+    "href": "courses/intro-to-python/index.html",
+    "title": "Introduction to Scientific Computing with Python",
+    "section": "",
+    "text": "Introduction to Python\nArray programming with Numpy\nExploratory Data Analysis with Pandas and Pingouin\nData Visualization with Seaborn and Matplotlib"
+  },
+  {
+    "objectID": "courses/intro-to-python/index.html#lessons",
+    "href": "courses/intro-to-python/index.html#lessons",
+    "title": "Introduction to Scientific Computing with Python",
+    "section": "",
+    "text": "Introduction to Python\nArray programming with Numpy\nExploratory Data Analysis with Pandas and Pingouin\nData Visualization with Seaborn and Matplotlib"
   },
   {
     "objectID": "tutorial-index.html",
@@ -90,11 +35,18 @@
     "text": "Tutorials\nOn this page you can find tutorials on various topics related to software and neuroscience."
   },
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
+    "objectID": "courses/01_intro_to_python/intro_to_python.html",
+    "href": "courses/01_intro_to_python/intro_to_python.html",
+    "title": "Intro to Python",
     "section": "",
-    "text": "About\nThis is a page about the iBots team."
+    "text": "Welcome to the first notebook of this course! In this notebook, we are going to learn how to represent different kinds of data in Python. We are also taking our first look at creating arrays in Numpy and we are going to analyze some actual neuroscience data. Finally, we are going to explore the differences in performance between Numpy and built-in Python functions."
+  },
+  {
+    "objectID": "courses/01_intro_to_python/intro_to_python.html#storing-data-in-variables",
+    "href": "courses/01_intro_to_python/intro_to_python.html#storing-data-in-variables",
+    "title": "Intro to Python",
+    "section": "1 Storing Data in Variables",
+    "text": "1 Storing Data in Variables\nIn the first section, we are going to learn how to represent different kinds of data and store them in variables. We are going to encounter four basic data types: integers, floating-point numbers, Boolean values and text strings. We are also going to use lists which are collections of data. Data can be assigned to a variable using the = operator which takes the value on the right and assigns it to the variable on the left. In this sense, a variable is simply a container that we can use to store and access data. The data type of a variable can be determined with the type() function. We can also convert variables from one type to another - for example, the int() function will try to convert a variable to an integer. Finally, Python provides operators for the arithmetic operations like addition +, subtraction -, multiplication * and division /. Let’s test how this works!\n\n\n\n\n\n\n\nCode\nDescription\n\n\n\n\nx = 3.14\nAssign the floating-point number 3.14 to the variable x\n\n\nx = True\nAssign the boolean value True to the variable x\n\n\nx = \"hello\"\nAssign the string \"hello\" to the variable x\n\n\nx = [1,2,3]\nAssign the list of integers [1,2,3] to the variable x\n\n\ntype(x)\nGet the data type of variable x\n\n\nint(x)\nConvert the variable x to an integer, if possible\n\n\n+, -, *, /\nAdd, subtract, multiply, divide values\n\n\n\n\nExample 1 Assign the integer value 1 to a variable called one and print its type().\n\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\n\nExercise 1 Subtract 0.5 from the variable one\n\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\n\n\nSolution\none - 0.5"
   },
   {
     "objectID": "course-index.html",
@@ -102,6 +54,27 @@
     "title": "Courses",
     "section": "",
     "text": "This is a list with all of our course materials"
+  },
+  {
+    "objectID": "course-index.html#introduction",
+    "href": "course-index.html#introduction",
+    "title": "Courses",
+    "section": "Introduction",
+    "text": "Introduction\n\nIntro to Scientific Computing with Python"
+  },
+  {
+    "objectID": "course-index.html#neuroscience",
+    "href": "course-index.html#neuroscience",
+    "title": "Courses",
+    "section": "Neuroscience",
+    "text": "Neuroscience"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Quarto pyodide Demo Website",
+    "section": "",
+    "text": "Welcome to the learning platform of the iBehave Open Technology Support (iBOTS). We are a group of research software consultants that supports neuroscientists."
   },
   {
     "objectID": "index.html#content",

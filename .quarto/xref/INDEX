@@ -22,5 +22,14 @@
   },
   "about.qmd": {
     "about.html": "d5017576"
+  },
+  "courses/Intro-to-Scientific-Computing-in-Python/index.qmd": {
+    "index.html": "01d8d92d"
+  },
+  "courses/01_intro_to_python/intro_to_python.qmd": {
+    "intro_to_python.html": "b6077ebc"
+  },
+  "courses/intro-to-python/index.qmd": {
+    "index.html": "47c5002b"
   }
 }
