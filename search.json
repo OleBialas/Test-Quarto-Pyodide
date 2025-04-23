@@ -14,6 +14,27 @@
     "text": "On this page, we set two options directly in the Quarto document. The rest of the options are coming from the _quarto.yml project file. These options are considered “global”.\n\nPlease enable JavaScript to experience the dynamic code cell content on this page."
   },
   {
+    "objectID": "courses/intro-to-python/01_intro_to_python/intro_to_python.html",
+    "href": "courses/intro-to-python/01_intro_to_python/intro_to_python.html",
+    "title": "Intro to Python",
+    "section": "",
+    "text": "Welcome to the first notebook of this course! In this notebook, we are going to learn how to represent different kinds of data in Python. We are also taking our first look at creating arrays in Numpy and we are going to analyze some actual neuroscience data. Finally, we are going to explore the differences in performance between Numpy and built-in Python functions."
+  },
+  {
+    "objectID": "courses/intro-to-python/01_intro_to_python/intro_to_python.html#storing-data-in-variables",
+    "href": "courses/intro-to-python/01_intro_to_python/intro_to_python.html#storing-data-in-variables",
+    "title": "Intro to Python",
+    "section": "1 Storing Data in Variables",
+    "text": "1 Storing Data in Variables\nIn the first section, we are going to learn how to represent different kinds of data and store them in variables. We are going to encounter four basic data types: integers, floating-point numbers, Boolean values and text strings. We are also going to use lists which are collections of data. Data can be assigned to a variable using the = operator which takes the value on the right and assigns it to the variable on the left. In this sense, a variable is simply a container that we can use to store and access data. The data type of a variable can be determined with the type() function. We can also convert variables from one type to another - for example, the int() function will try to convert a variable to an integer. Finally, Python provides operators for the arithmetic operations like addition +, subtraction -, multiplication * and division /. Let’s test how this works!\n\n\n\n\n\n\n\nCode\nDescription\n\n\n\n\nx = 3.14\nAssign the floating-point number 3.14 to the variable x\n\n\nx = True\nAssign the boolean value True to the variable x\n\n\nx = \"hello\"\nAssign the string \"hello\" to the variable x\n\n\nx = [1,2,3]\nAssign the list of integers [1,2,3] to the variable x\n\n\ntype(x)\nGet the data type of variable x\n\n\nint(x)\nConvert the variable x to an integer, if possible\n\n\n+, -, *, /\nAdd, subtract, multiply, divide values\n\n\n\n\nExample 1 Assign the integer value 1 to a variable called one and print its type().\n\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\n\nExercise 1 Subtract 0.5 from the variable one\n\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\n\n\nSolution\none - 0.5"
+  },
+  {
+    "objectID": "tutorial-index.html",
+    "href": "tutorial-index.html",
+    "title": "Tutorials",
+    "section": "",
+    "text": "Tutorials\nOn this page you can find tutorials on various topics related to software and neuroscience."
+  },
+  {
     "objectID": "courses/intro-to-python/index.html",
     "href": "courses/intro-to-python/index.html",
     "title": "Introduction to Scientific Computing with Python",
@@ -26,27 +47,6 @@
     "title": "Introduction to Scientific Computing with Python",
     "section": "",
     "text": "Introduction to Python\nArray programming with Numpy\nExploratory Data Analysis with Pandas and Pingouin\nData Visualization with Seaborn and Matplotlib"
-  },
-  {
-    "objectID": "tutorial-index.html",
-    "href": "tutorial-index.html",
-    "title": "Tutorials",
-    "section": "",
-    "text": "Tutorials\nOn this page you can find tutorials on various topics related to software and neuroscience."
-  },
-  {
-    "objectID": "courses/01_intro_to_python/intro_to_python.html",
-    "href": "courses/01_intro_to_python/intro_to_python.html",
-    "title": "Intro to Python",
-    "section": "",
-    "text": "Welcome to the first notebook of this course! In this notebook, we are going to learn how to represent different kinds of data in Python. We are also taking our first look at creating arrays in Numpy and we are going to analyze some actual neuroscience data. Finally, we are going to explore the differences in performance between Numpy and built-in Python functions."
-  },
-  {
-    "objectID": "courses/01_intro_to_python/intro_to_python.html#storing-data-in-variables",
-    "href": "courses/01_intro_to_python/intro_to_python.html#storing-data-in-variables",
-    "title": "Intro to Python",
-    "section": "1 Storing Data in Variables",
-    "text": "1 Storing Data in Variables\nIn the first section, we are going to learn how to represent different kinds of data and store them in variables. We are going to encounter four basic data types: integers, floating-point numbers, Boolean values and text strings. We are also going to use lists which are collections of data. Data can be assigned to a variable using the = operator which takes the value on the right and assigns it to the variable on the left. In this sense, a variable is simply a container that we can use to store and access data. The data type of a variable can be determined with the type() function. We can also convert variables from one type to another - for example, the int() function will try to convert a variable to an integer. Finally, Python provides operators for the arithmetic operations like addition +, subtraction -, multiplication * and division /. Let’s test how this works!\n\n\n\n\n\n\n\nCode\nDescription\n\n\n\n\nx = 3.14\nAssign the floating-point number 3.14 to the variable x\n\n\nx = True\nAssign the boolean value True to the variable x\n\n\nx = \"hello\"\nAssign the string \"hello\" to the variable x\n\n\nx = [1,2,3]\nAssign the list of integers [1,2,3] to the variable x\n\n\ntype(x)\nGet the data type of variable x\n\n\nint(x)\nConvert the variable x to an integer, if possible\n\n\n+, -, *, /\nAdd, subtract, multiply, divide values\n\n\n\n\nExample 1 Assign the integer value 1 to a variable called one and print its type().\n\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\n\nExercise 1 Subtract 0.5 from the variable one\n\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\n\n\nSolution\none - 0.5"
   },
   {
     "objectID": "course-index.html",
