@@ -31,5 +31,8 @@
   },
   "courses/intro-to-python/index.qmd": {
     "index.html": "47c5002b"
+  },
+  "courses/intro-to-python/01_intro_to_python/intro_to_python.qmd": {
+    "intro_to_python.html": "f255cf55"
   }
 }
