@@ -1,0 +1,58 @@
+---
+title: "Intro to Python"
+pyodide:  
+  show-startup-message: true    # Display status of pyodide initialization
+number-sections: true
+number-depth: 2
+---
+
+Welcome to the first notebook of this course!
+In this notebook, we are going to learn how to represent different kinds of data in Python.
+We are also taking our first look at creating arrays in Numpy and we are going to analyze some actual neuroscience data. Finally, we are going to explore the differences in performance between Numpy and built-in Python functions.
+
+## Storing Data in Variables
+
+In the first section, we are going to learn how to represent different kinds of data and store them in variables.
+We are going to encounter four basic data types: integers, floating-point numbers, Boolean values and text strings.
+We are also going to use lists which are collections of data.
+Data can be assigned to a variable using the `=` operator which takes the value on the right and assigns it to the variable on the left.
+In this sense, a variable is simply a container that we can use to store and access data.
+The data type of a variable can be determined with the `type()` function.
+We can also convert variables from one type to another - for example, the `int()` function will try to convert a variable to an integer.
+Finally, Python provides operators for the arithmetic operations like addition `+`, subtraction `-`, multiplication `*` and division `/`.
+Let's test how this works!
+
+| Code | Description |
+| ---  | ---|
+| `x = 3.14` | Assign the floating-point number `3.14` to the variable `x` |
+| `x = True` | Assign the boolean value `True` to the variable `x` |
+| `x = "hello"` | Assign the string `"hello"` to the variable `x` |
+| `x = [1,2,3]` | Assign the list of integers `[1,2,3]` to the variable `x`|
+| `type(x)` | Get the data type of variable `x` |
+| `int(x)` | Convert the variable `x` to an integer, if possible |
+| `+`, `-`, `*`, `/` | Add, subtract, multiply, divide values |
+
+
+:::{#exm-}
+Assign the integer value `1` to a variable called `one` and print its `type()`.
+:::
+
+```{pyodide-python}
+one = 1
+type(one)
+```
+
+:::{#exr-}
+Subtract 0.5 from the variable `one`
+:::
+
+```{pyodide-python}
+```
+
+```{python}
+# | code-fold: true
+# | eval: false
+# | code-summary: Solution
+one - 0.5
+```
+

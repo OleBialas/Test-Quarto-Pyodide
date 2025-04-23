@@ -14,7 +14,9 @@ website:
       - href: about.qmd
         text: About 
 
-
+format:
+  html:
+    theme: journal
 
 # Set the language that should be used for Quarto websites
 # https://github.com/quarto-dev/quarto-cli/tree/main/src/resources/language

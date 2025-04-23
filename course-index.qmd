@@ -1,7 +1,11 @@
-# Courses
+---
+title: "Courses"
+---
 
 This is a list with all of our course materials
 
 ## Introduction
+
+- [Intro to Scientific Computing with Python](./courses/intro-to-python/index.qmd)
 
 ## Neuroscience
