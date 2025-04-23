@@ -1,0 +1,16 @@
+---
+title: "Quarto pyodide Demo Website"
+---
+
+Welcome to the learning platform of the iBehave Open Technology Support (iBOTS). We are a group of research software consultants that supports neuroscientists.
+
+## Content
+
+On this page, you can find:
+
+- materials for all of the [courses](course-index.qmd) that we teach
+- short [tutorials](tutorials-index.qmd) on various topics surrounding software and neuroscience
+
+## Get in Touch
+
+Check the [about](about.qmd) section or send us an email.

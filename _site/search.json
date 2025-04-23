@@ -1,0 +1,120 @@
+[
+  {
+    "objectID": "slide_embedded.html",
+    "href": "slide_embedded.html",
+    "title": "Embed Slides",
+    "section": "",
+    "text": "On this page, we show how we can embed a RevealJS Presentation inside of a Quarto Website."
+  },
+  {
+    "objectID": "slide_embedded.html#presentation",
+    "href": "slide_embedded.html#presentation",
+    "title": "Embed Slides",
+    "section": "Presentation",
+    "text": "Presentation"
+  },
+  {
+    "objectID": "slide_embedded.html#embed-code",
+    "href": "slide_embedded.html#embed-code",
+    "title": "Embed Slides",
+    "section": "Embed Code",
+    "text": "Embed Code\nPlace the following code inside of the Quarto Document:\n&lt;style&gt;\n.slide-deck {\n    border: 3px solid #dee2e6;\n    width: 100%;\n    height: 475px;\n}\n&lt;/style&gt;\n\n&lt;div&gt;\n```{=html}\n&lt;iframe class=\"slide-deck\" src=\"path/to/presentation/\"&gt;&lt;/iframe&gt;\n```\n&lt;/div&gt;"
+  },
+  {
+    "objectID": "example_page.html",
+    "href": "example_page.html",
+    "title": "Example page",
+    "section": "",
+    "text": "On this page, we set two options directly in the Quarto document. The rest of the options are coming from the _quarto.yml project file. These options are considered “global”.\n\nPlease enable JavaScript to experience the dynamic code cell content on this page."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Quarto pyodide Demo Website",
+    "section": "",
+    "text": "Welcome to the learning platform of the iBehave Open Technology Support (iBOTS). We are a group of research software consultants that supports neuroscientists."
+  },
+  {
+    "objectID": "slide-embed.html",
+    "href": "slide-embed.html",
+    "title": "Embed Slides",
+    "section": "",
+    "text": "On this page, we show how we can embed a RevealJS Presentation inside of a Quarto Website.",
+    "crumbs": [
+      "Home",
+      "Content",
+      "Embed Slides"
+    ]
+  },
+  {
+    "objectID": "slide-embed.html#presentation",
+    "href": "slide-embed.html#presentation",
+    "title": "Embed Slides",
+    "section": "Presentation",
+    "text": "Presentation",
+    "crumbs": [
+      "Home",
+      "Content",
+      "Embed Slides"
+    ]
+  },
+  {
+    "objectID": "slide-embed.html#embed-code",
+    "href": "slide-embed.html#embed-code",
+    "title": "Embed Slides",
+    "section": "Embed Code",
+    "text": "Embed Code\nPlace the following code inside of the Quarto Document:\n&lt;style&gt;\n.slide-deck {\n    border: 3px solid #dee2e6;\n    width: 100%;\n    height: 475px;\n}\n&lt;/style&gt;\n\n&lt;div&gt;\n```{=html}\n&lt;iframe class=\"slide-deck\" src=\"path/to/presentation/\"&gt;&lt;/iframe&gt;\n```\n&lt;/div&gt;",
+    "crumbs": [
+      "Home",
+      "Content",
+      "Embed Slides"
+    ]
+  },
+  {
+    "objectID": "example-page.html",
+    "href": "example-page.html",
+    "title": "Example page",
+    "section": "",
+    "text": "On this page, we set two options directly in the Quarto document. The rest of the options are coming from the _quarto.yml project file. These options are considered “global”.\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.",
+    "crumbs": [
+      "Home",
+      "Content",
+      "Example page"
+    ]
+  },
+  {
+    "objectID": "tutorial-index.html",
+    "href": "tutorial-index.html",
+    "title": "Tutorials",
+    "section": "",
+    "text": "Tutorials\nOn this page you can find tutorials on various topics related to software and neuroscience."
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About\nThis is a page about the iBots team."
+  },
+  {
+    "objectID": "course-index.html",
+    "href": "course-index.html",
+    "title": "Courses",
+    "section": "",
+    "text": "This is a list with all of our course materials"
+  },
+  {
+    "objectID": "index.html#content",
+    "href": "index.html#content",
+    "title": "Quarto pyodide Demo Website",
+    "section": "Content",
+    "text": "Content\nOn this page, you can find:\n\nmaterials for all of the courses that we teach\nshort tutorials on various topics surrounding software and neuroscience"
+  },
+  {
+    "objectID": "index.html#get-in-touch",
+    "href": "index.html#get-in-touch",
+    "title": "Quarto pyodide Demo Website",
+    "section": "Get in Touch",
+    "text": "Get in Touch\nCheck the about section or send us an email."
+  }
+]
